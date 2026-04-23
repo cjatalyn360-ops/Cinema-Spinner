@@ -1,9 +1,18 @@
+// =====================
+// Configuration
+// =====================
+const BASE_URL = "https://api.themoviedb.org/3";
 const API_KEY = "API_KEY_GOES_HERE";
 //need to make a TMDB account and apply for key in order to get data to flow into website.
+
+// =====================
+// DOM Elements
+// =====================
 const randomizeBtn = document.getElementById("randomizeBtn");
 const spinAgainBtn = document.getElementById("spinAgain");
-
 const movieDisplay = document.getElementById("movieDisplay");
+
+
 const poster = document.getElementById("poster");
 const movieTitle = document.getElementById("movieTitle");
 const movieDesc = document.getElementById("movieDesc");
@@ -52,7 +61,7 @@ async function getMovie(spinAgain) {
 
   const baseUrl =
     `https://api.themoviedb.org/3/discover/movie?api_key=${API_KEY}` +
-    `&sort_by=vote_count.asc` +
+    `&sort_by=popularity.desc` +
     `&vote_average.gte=5` +
     `&vote_count.gte=50` +
     (genre ? `&with_genres=${genre}` : "") +
