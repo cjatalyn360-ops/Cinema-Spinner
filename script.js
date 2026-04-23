@@ -1,4 +1,4 @@
-const API_KEY = "9f945a81be77f4cd26863f5beb5374aa";
+const API_KEY = "API_KEY_GOES_HERE";
 //need to make a TMDB account and apply for key in order to get data to flow into website.
 const randomizeBtn = document.getElementById("randomizeBtn");
 const spinAgainBtn = document.getElementById("spinAgain");
