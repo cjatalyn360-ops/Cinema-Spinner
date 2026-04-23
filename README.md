@@ -25,6 +25,9 @@ Cinema Spinner is a web application that helps users discover random movies base
 ## Important Note
 This project requires a TMDB API key.
 You will need to replace the API key in `script.js` with your own.
+Some instructions here:
+1. Create a free API key at https://www.themoviedb.org/
+2. Replace API_KEY in script.js
 
 ## Author
 Connor Prout (Group Project)
