@@ -20,7 +20,7 @@ Cinema Spinner is a web application that helps users discover random movies base
 1. Download or clone the repository
 2. Open the folder in VS Code
 3. Install the Live Server extension
-4. Right-click `edproject.html` and select "Open with Live Server"
+4. Right-click `index.html` and select "Open with Live Server"
 
 ## Important Note
 This project requires a TMDB API key.
